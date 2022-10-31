@@ -2,11 +2,13 @@
 
 Recently, I needed to send some files to my old laptop, and I used `scp` to do that. I also wrote [a short post about it](https://blog.macieksitkowski.com/how-to-share-files-in-local-network). 
 
+## Problem
+
 However, it turned out that I also needed to send 70 GB of photos and videos, and while I was sending it via `scp`, the connection broke, and I was left with around 50% of files not sent. Obviously, I didn't want to manually check which photos have been sent, and which not. There has to be a better way to do that, I thought. And there is! 
 
-## `rsync`
+## Solution - rsync
 
-Rsync is file copying tool, but what's really cool about it is that, like the name suggests, it allows you to sync the files. It checks the difference between the source and the files at the destination, and sends only the missing ones.
+Rsync is a file copying tool, but what's really cool about it is that, like the name suggests, it allows you to sync files. It checks the difference between the source and the files at the destination, and sends only the missing ones.
 
 ## Command
 
