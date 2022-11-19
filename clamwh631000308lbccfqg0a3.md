@@ -1,5 +1,7 @@
 # How to find all active GitHub Codespaces?
 
+> Update: It's now possible to view Codespaces in GitHub: [github.com/codespaces](https://github.com/codespaces)
+
 Today, I've run out of [GitHub Codespaces](https://github.com/features/codespaces) storage.
 
 ![Screenshot from 2022-11-18 20-25-28.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1668799585963/x9Bbgzuw7.png align="left")
@@ -36,4 +38,4 @@ Now, you see all your active codespaces and you can cancel the ones, that you do
 ---
 
 - [GitHub Codespaces](https://github.com/features/codespaces) 
-- [GitHub CLI](https://cli.github.com/)
+- [GitHub CLI](https://cli.github.com/)💡
